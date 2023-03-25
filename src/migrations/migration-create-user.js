@@ -23,10 +23,7 @@ module.exports = {
       phone: {
         type: Sequelize.STRING
       },
-      typeRole: {
-        type: Sequelize.STRING
-      },
-      keyRole: {
+      roleId: {
         type: Sequelize.STRING
       },
       createdAt: {
